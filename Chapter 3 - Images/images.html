@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+
+    <!-- External CSS section -->
+     <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .image-container {
+            margin: 30px auto;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+            /* CSS filters applied in this section */
+            filter: grayscale(40%) brightness(90%) contrast(110%);
+            transition: 0.3s;
+        }
+
+        img:hover {
+            filter: none; /* It removes the filter when hovering */
+        }
+
+        .license {
+            font-size: 14px;
+            color: #555;
+        }
+     </style>
+</head>
+<body>
+    <h1>Nature Images</h1>
+
+    <!-- Image #1 -->
+    <div class="image-container">
+        <h3>Cherry Blossom</h3>
+        <img src="gabriel-meinert-o84zwjlxvQw-unsplash_optimized_300.jpg"
+        width="600" height="400" 
+        title="Cherry Blossom">
+
+        <p class="license">
+            Photo by Gabriel Meinert on Unplash - Free to use under the Unplash License
+        </p>
+    </div>
+
+    <!-- Image #2 -->
+    <div class="image-container">
+        <h3>Rabbit</h3>
+        <img src="daniil-komov-ZFQ4F96gUkU-unsplash_optimized_300.jpg"
+        width="600" height="400" 
+        title="Rabbit">
+
+        <p class="license">
+            Photo by Daniil Komov on Unplash - Free to use under the Unplash License
+        </p>
+    </div>
+
+    <!-- Image #3 -->
+    <div class="image-container">
+        <h3>Pink Roses</h3>
+        <img src="tsuyoshi-kozu-K6Dl211gXqw-unsplash_optimized_300.jpg"
+        width="600" height="400" 
+        title="Pink Roses">
+
+        <p class="license">
+            Photo by Gabriel Meinert on Unplash - Free to use under the Unplash License
+        </p>
+    </div>
+</body>
+</html>
