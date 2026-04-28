@@ -1,0 +1,19 @@
+/* Removes default spacing */
+body {
+    margin: 0;
+    height: 100vh;
+
+    /* Centering feature */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111;
+}
+
+/* The video size */
+video {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
